@@ -5,6 +5,7 @@ RUN apt-get -qq update && apt-get install -y curl vim git build-essential net-to
 
 ADD iperf_test.sh /home/iperf_test.sh
 ADD iperf_server.sh /home/iperf_server.sh
+ADD netmap.ko /home/netmap.ko
 
 #$VOLUME ["/root"]
 WORKDIR /home
