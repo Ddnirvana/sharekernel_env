@@ -7,7 +7,7 @@ ADD iperf_test.sh /home/iperf_test.sh
 ADD iperf_server.sh /home/iperf_server.sh
 ADD iperf_server_nm.sh /home/iperf_server_nm.sh
 ADD build_net.sh /home/build_net.sh
-ADD netmap.ko /home/netmap.ko
+ADD modules /home/modules
 
 #$VOLUME ["/root"]
 WORKDIR /home
